@@ -23,6 +23,9 @@ await clickOnTheButton(loginButtonLocator);
 
 })
 
+
+/************************************************************************** */
+
 test(`section one : send and get data`, async ({page})=>
 {
   let clickSectionOneLocator : Locator = page.locator(`[href="#send-get"]`);
@@ -42,6 +45,9 @@ test(`section one : send and get data`, async ({page})=>
   await expect(jsonAppeardLocator).toContainText(`"name": "Abdelhady"`);
   
 })
+
+
+/************************************************************************** */
 
 
 test(`section two : clicking`, async ({page})=>
@@ -85,6 +91,9 @@ test(`section two : clicking`, async ({page})=>
 
 })
 
+
+/************************************************************************** */
+
 test(`section three`, async ({page})=>
 {
     let sectionThreeBtn : Locator= page.locator(`#link-3`);
@@ -110,7 +119,7 @@ test(`section three`, async ({page})=>
 
 })
 
-
+/************************************************************************** */
 test(`section four : dropdown list `, async ({page})=>
 {
   // locators 
@@ -140,7 +149,9 @@ test(`section four : dropdown list `, async ({page})=>
   ])
 })
 
+/************************************************************************** */
 
+ 
 test(`section twelve: Alerts`, async({page}) => 
 {
   let sectiontwelveBtn : Locator = page.locator(`#link-12`);
@@ -183,6 +194,8 @@ test(`section twelve: Alerts`, async({page}) =>
     // actions 
 })
 
+/************************************************************************** */
+
 
 test(`section five : Drag & drop`, async ({page}) => 
 {
@@ -203,6 +216,12 @@ test(`section five : Drag & drop`, async ({page}) =>
 
 
 })
+
+
+
+
+
+/************************************************************************** */
 
 // Helper functions 
 
