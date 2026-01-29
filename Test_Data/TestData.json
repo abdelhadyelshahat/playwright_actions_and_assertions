@@ -1,0 +1,23 @@
+{
+    "invalidCredintials" : {
+        "username" : "invalid_username",
+        "password" : "invalid_password"
+    },
+    "validCredentials" : {
+        "username" : "trainer",
+        "password" : "selenium123"
+    },
+    "SectionOneData" : 
+    {
+        "Name" : "Abdelhady",
+        "email" : "hady@gmail.com"
+    },
+    "sectionNineData" :
+    {
+        "MultiSelectOptions" :
+        {
+            "value ": "api" ,  "label": "UI" , "index": 3 
+        }
+    }
+
+}
